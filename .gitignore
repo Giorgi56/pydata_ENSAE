@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files FIXME: remove if we're keeping the data files in the project submission
+raw_data/
