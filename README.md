@@ -26,10 +26,12 @@ python3 main.py
 ## Plan détaillé des tâches à réaliser:
 
 - [x] Trouver le sujet et le dataset, télécharger les données CSV
+- [ ] Implémenter la récupération automatisée des données avec un call API
 - [ ] Compléter le squelette de la branche main
 - [ ] Se partager les tâches et passer chacun sur sa branche
 - [ ] Reproduire les résultats du classement des pays en fonction de leur EPI
 - [ ] Tout organiser sous la forme d'un notebook Jupyter, compléter le requirements.txt
+- [ ] Faire une carte du monde avec geopandas, en utilisant un gradient de couleurs pour l'EPI.
 - [ ] Envoyer le travail complété 
 
 ## Méthodologie de travail en équipe (workflow):
