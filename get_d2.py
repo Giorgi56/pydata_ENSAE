@@ -11,20 +11,20 @@ earthaccess.login()
 
 # 2. Search
 results = earthaccess.search_data(
-    # short_name='C3540911446-ESDIS',
-    concept_id='C3540911446-ESDIS',
+    short_name='CIESIN_SEDAC_EPI_2022',
+    # concept_id='C3540911446-ESDIS',
     # , S, , N
     #bounding_box=(180, -55, -180, 90), 
-    temporal=("1950-01-01T00:00:00.000Z", "2022-12-31T00:00:00.000Z"),  # ...and time period of interest.
-    entry_title="2022-epi-raw-data-time-series-na-csv.zip",
-    count=10
+    #temporal=("1950-01-01T00:00:00.000Z", "2022-12-31T00:00:00.000Z"),  # ...and time period of interest.
+    #entry_title="2022-epi-raw-data-time-series-na-csv.zip",
+    #count=10
 )
 
 print(results)
 
 # 3. Access
-if results != []:
-    files = earthaccess.download(results, "/home/giorgi/Documents/py_datasci/pydata_ENSAE")
+if results != []: # /home/giorgi/Documents/py_datasci/pydata_ENSAE
+    files = earthaccess.download(results, "/home/giorgi/Documents/")
 else:
     print("\nresults is empty\n")
 
