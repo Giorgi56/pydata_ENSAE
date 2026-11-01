@@ -1,0 +1,221 @@
+"code","iso","country","APR.raw.2020"
+4,"AFG","Afghanistan",13.135
+8,"ALB","Albania",9.532
+12,"DZA","Algeria",1.273
+20,"AND","Andorra",3.48
+24,"AGO","Angola",0.084
+660,"AIA","Anguilla",NA
+28,"ATG","Antigua and Barbuda",NA
+32,"ARG","Argentina",9.82
+51,"ARM","Armenia",2.922
+533,"ABW","Aruba",NA
+36,"AUS","Australia",2.88
+40,"AUT","Austria",7.047
+31,"AZE","Azerbaijan",1.826
+44,"BHS","Bahamas",NA
+48,"BHR","Bahrain",NA
+50,"BGD","Bangladesh",5.136
+52,"BRB","Barbados",NA
+112,"BLR","Belarus",2.222
+56,"BEL","Belgium",33.193
+84,"BLZ","Belize",21.71
+204,"BEN","Benin",6.782
+60,"BMU","Bermuda",NA
+64,"BTN","Bhutan",0.26
+68,"BOL","Bolivia",9.746
+70,"BIH","Bosnia and Herzegovina",10.609
+72,"BWA","Botswana",0.018
+76,"BRA","Brazil",19.842
+92,"VGB","British Virgin Islands",NA
+96,"BRN","Brunei Darussalam",4.426
+100,"BGR","Bulgaria",2.725
+854,"BFA","Burkina Faso",0.807
+108,"BDI","Burundi",0.057
+132,"CPV","Cabo Verde",NA
+116,"KHM","Cambodia",14.791
+120,"CMR","Cameroon",1.143
+124,"CAN","Canada",4.871
+136,"CYM","Cayman Islands",NA
+140,"CAF","Central African Republic",0.06
+148,"TCD","Chad",0.03
+152,"CHL","Chile",6.79
+156,"CHN","China",21.062
+170,"COL","Colombia",20.442
+174,"COM","Comoros",NA
+184,"COK","Cook Islands",NA
+188,"CRI","Costa Rica",39.486
+384,"CIV","Cote d'Ivoire",0.074
+191,"HRV","Croatia",4.463
+192,"CUB","Cuba",18.011
+531,"CUW","Curacao",NA
+196,"CYP","Cyprus",56.384
+203,"CZE","Czech Republic",11.166
+180,"COD","Dem. Rep. Congo",17.65
+208,"DNK","Denmark",5.251
+262,"DJI","Djibouti",1.154
+212,"DMA","Dominica",NA
+214,"DOM","Dominican Republic",19.187
+218,"ECU","Ecuador",32.119
+818,"EGY","Egypt",2.262
+222,"SLV","El Salvador",36.12
+226,"GNQ","Equatorial Guinea",8.82
+232,"ERI","Eritrea",0.06
+233,"EST","Estonia",1.887
+748,"SWZ","Eswatini",7.172
+231,"ETH","Ethiopia",0.967
+234,"FRO","Faeroe Islands",NA
+238,"FLK","Falkland Islands",NA
+242,"FJI","Fiji",NA
+246,"FIN","Finland",1.37
+250,"FRA","France",19.011
+258,"PYF","French Polynesia",NA
+266,"GAB","Gabon",8.838
+270,"GMB","Gambia",9.489
+268,"GEO","Georgia",15.078
+276,"DEU","Germany",14.265
+288,"GHA","Ghana",0.197
+300,"GRC","Greece",10.58
+304,"GRL","Greenland",NA
+308,"GRD","Grenada",NA
+320,"GTM","Guatemala",32.402
+831,"GGY","Guernsey",NA
+324,"GIN","Guinea",0.536
+624,"GNB","Guinea-Bissau",0.673
+328,"GUY","Guyana",1.424
+332,"HTI","Haiti",0.195
+336,"VAT","Holy See",NA
+340,"HND","Honduras",16.589
+344,"HKG","Hong Kong",NA
+348,"HUN","Hungary",9.252
+352,"ISL","Iceland",NA
+356,"IND","India",1.183
+360,"IDN","Indonesia",0.48
+364,"IRN","Iran",1.009
+368,"IRQ","Iraq",4.997
+372,"IRL","Ireland",13.923
+833,"IMN","Isle of Man",NA
+376,"ISR","Israel",31.973
+380,"ITA","Italy",22.756
+388,"JAM","Jamaica",8.241
+392,"JPN","Japan",35.212
+832,"JEY","Jersey",NA
+400,"JOR","Jordan",1.176
+398,"KAZ","Kazakhstan",1.136
+404,"KEN","Kenya",0.475
+296,"KIR","Kiribati",NA
+689,"XKX","Kosovo",10.313
+414,"KWT","Kuwait",0.603
+417,"KGZ","Kyrgyzstan",2.49
+418,"LAO","Laos",0.208
+428,"LVA","Latvia",3.715
+422,"LBN","Lebanon",12.846
+426,"LSO","Lesotho",0.917
+430,"LBR","Liberia",8.05
+434,"LBY","Libya",0.685
+438,"LIE","Liechtenstein",28.098
+440,"LTU","Lithuania",3.603
+442,"LUX","Luxembourg",12.09
+446,"MAC","Macao",NA
+450,"MDG","Madagascar",0.277
+454,"MWI","Malawi",2.826
+458,"MYS","Malaysia",71.713
+462,"MDV","Maldives",NA
+466,"MLI","Mali",0.004
+470,"MLT","Malta",NA
+584,"MHL","Marshall Islands",NA
+478,"MRT","Mauritania",0.047
+480,"MUS","Mauritius",NA
+484,"MEX","Mexico",5.224
+583,"FSM","Micronesia",NA
+498,"MDA","Moldova",6.812
+492,"MCO","Monaco",NA
+496,"MNG","Mongolia",0.152
+499,"MNE","Montenegro",1.085
+504,"MAR","Morocco",4.011
+508,"MOZ","Mozambique",0.412
+104,"MMR","Myanmar",1.887
+516,"NAM","Namibia",0.037
+520,"NRU","Nauru",NA
+524,"NPL","Nepal",0.412
+528,"NLD","Netherlands",27.403
+540,"NCL","New Caledonia",NA
+554,"NZL","New Zealand",6.902
+558,"NIC","Nicaragua",8.963
+562,"NER","Niger",0.015
+566,"NGA","Nigeria",18.823
+570,"NIU","Niue",NA
+408,"PRK","North Korea",26.771
+807,"MKD","North Macedonia",0.981
+578,"NOR","Norway",3.516
+512,"OMN","Oman",1.176
+586,"PAK","Pakistan",0.047
+585,"PLW","Palau",NA
+591,"PAN","Panama",13.274
+598,"PNG","Papua New Guinea",0.182
+600,"PRY","Paraguay",16.826
+604,"PER","Peru",15.15
+608,"PHL","Philippines",37.965
+616,"POL","Poland",7.222
+620,"PRT","Portugal",14.359
+634,"QAT","Qatar",0.158
+178,"COG","Republic of Congo",0.21
+642,"ROU","Romania",2.638
+643,"RUS","Russia",1.243
+646,"RWA","Rwanda",1.03
+652,"BLM","Saint Barthelemy",NA
+659,"KNA","Saint Kitts and Nevis",NA
+662,"LCA","Saint Lucia",NA
+670,"VCT","Saint Vincent and the Grenadines",NA
+882,"WSM","Samoa",NA
+674,"SMR","San Marino",35.76
+678,"STP","Sao Tome and Principe",NA
+682,"SAU","Saudi Arabia",5.932
+686,"SEN","Senegal",0.738
+688,"SRB","Serbia",9.763
+690,"SYC","Seychelles",NA
+694,"SLE","Sierra Leone",6.567
+702,"SGP","Singapore",40.915
+534,"SXM","Sint Maarten",NA
+703,"SVK","Slovakia",5.171
+705,"SVN","Slovenia",9.242
+90,"SLB","Solomon Islands",NA
+706,"SOM","Somalia",14.34
+710,"ZAF","South Africa",8.307
+410,"KOR","South Korea",25.929
+728,"SSD","South Sudan",0.903
+724,"ESP","Spain",15.293
+144,"LKA","Sri Lanka",7.049
+275,"PSE","State of Palestine",27.395
+729,"SDN","Sudan",0.528
+740,"SUR","Suriname",33.562
+752,"SWE","Sweden",1.597
+756,"CHE","Switzerland",16.494
+760,"SYR","Syria",0.894
+158,"TWN","Taiwan",26.523
+762,"TJK","Tajikistan",1.357
+834,"TZA","Tanzania",0.002
+764,"THA","Thailand",5.516
+626,"TLS","Timor-Leste",0.039
+768,"TGO","Togo",1.823
+776,"TON","Tonga",NA
+780,"TTO","Trinidad and Tobago",84.187
+788,"TUN","Tunisia",0.523
+792,"TUR","Turkey",8.315
+795,"TKM","Turkmenistan",8.969
+796,"TCA","Turks and Caicos Islands",NA
+798,"TUV","Tuvalu",NA
+800,"UGA","Uganda",0.111
+804,"UKR","Ukraine",15.279
+784,"ARE","United Arab Emirates",22.265
+826,"GBR","United Kingdom",13.811
+840,"USA","United States of America",5.974
+858,"URY","Uruguay",30.692
+860,"UZB","Uzbekistan",13.281
+548,"VUT","Vanuatu",NA
+862,"VEN","Venezuela",3.413
+704,"VNM","Viet Nam",7.174
+876,"WLF","Wallis and Futuna Islands",NA
+732,"ESH","Western Sahara",0.007
+887,"YEM","Yemen",0.096
+894,"ZMB","Zambia",1.613
+716,"ZWE","Zimbabwe",3.232
