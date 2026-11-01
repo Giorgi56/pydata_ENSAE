@@ -1,0 +1,221 @@
+"code","iso","country","MSW.raw.2019"
+4,"AFG","Afghanistan",0.9894
+8,"ALB","Albania",0.995
+12,"DZA","Algeria",0.468
+20,"AND","Andorra",0.6895
+24,"AGO","Angola",1
+660,"AIA","Anguilla",NA
+28,"ATG","Antigua and Barbuda",0.2484
+32,"ARG","Argentina",0.2884
+51,"ARM","Armenia",0.505
+533,"ABW","Aruba",0.89
+36,"AUS","Australia",0.0502
+40,"AUT","Austria",0.0191
+31,"AZE","Azerbaijan",0.61
+44,"BHS","Bahamas",0.6347
+48,"BHR","Bahrain",0.097
+50,"BGD","Bangladesh",0.9425
+52,"BRB","Barbados",0.185
+112,"BLR","Belarus",0.3585
+56,"BEL","Belgium",0.0172
+84,"BLZ","Belize",0.825
+204,"BEN","Benin",0.87
+60,"BMU","Bermuda",0.0234
+64,"BTN","Bhutan",0.3568
+68,"BOL","Bolivia",0.4221
+70,"BIH","Bosnia and Herzegovina",0.6552
+72,"BWA","Botswana",0.695
+76,"BRA","Brazil",0.2687
+92,"VGB","British Virgin Islands",0.197
+96,"BRN","Brunei Darussalam",0.145
+100,"BGR","Bulgaria",0.1601
+854,"BFA","Burkina Faso",0.864
+108,"BDI","Burundi",0.995
+132,"CPV","Cabo Verde",0.9144
+116,"KHM","Cambodia",0.9615
+120,"CMR","Cameroon",0.8765
+124,"CAN","Canada",0.0773
+136,"CYM","Cayman Islands",0.79
+140,"CAF","Central African Republic",0.995
+148,"TCD","Chad",0.9796
+152,"CHL","Chile",0.2433
+156,"CHN","China",0.5501
+170,"COL","Colombia",0.109
+174,"COM","Comoros",0.9961
+184,"COK","Cook Islands",NA
+188,"CRI","Costa Rica",0.2252
+384,"CIV","Cote d'Ivoire",0.9489
+191,"HRV","Croatia",0.227
+192,"CUB","Cuba",0.6597
+531,"CUW","Curacao",0.98
+196,"CYP","Cyprus",0.1764
+203,"CZE","Czech Republic",0.0626
+180,"COD","Dem. Rep. Congo",0.9705
+208,"DNK","Denmark",0.0062
+262,"DJI","Djibouti",0.9673
+212,"DMA","Dominica",0.4642
+214,"DOM","Dominican Republic",0.789
+218,"ECU","Ecuador",0.5074
+818,"EGY","Egypt",0.758
+222,"SLV","El Salvador",0.2145
+226,"GNQ","Equatorial Guinea",0.505
+232,"ERI","Eritrea",0.9993
+233,"EST","Estonia",0.0969
+748,"SWZ","Eswatini",0.8671
+231,"ETH","Ethiopia",0.99
+234,"FRO","Faeroe Islands",0.33
+238,"FLK","Falkland Islands",NA
+242,"FJI","Fiji",0.6384
+246,"FIN","Finland",0.0166
+250,"FRA","France",0.0309
+258,"PYF","French Polynesia",0.61
+266,"GAB","Gabon",0.7187
+270,"GMB","Gambia",0.994
+268,"GEO","Georgia",0.505
+276,"DEU","Germany",0.0153
+288,"GHA","Ghana",0.9514
+300,"GRC","Greece",0.095
+304,"GRL","Greenland",0.12
+308,"GRD","Grenada",0.4051
+320,"GTM","Guatemala",0.7816
+831,"GGY","Guernsey",NA
+324,"GIN","Guinea",0.97
+624,"GNB","Guinea-Bissau",0.9955
+328,"GUY","Guyana",0.6479
+332,"HTI","Haiti",0.9552
+336,"VAT","Holy See",NA
+340,"HND","Honduras",0.6474
+344,"HKG","Hong Kong",0.071
+348,"HUN","Hungary",0.5039
+352,"ISL","Iceland",0.081
+356,"IND","India",0.83
+360,"IDN","Indonesia",0.486
+364,"IRN","Iran",0.6076
+368,"IRQ","Iraq",0.7611
+372,"IRL","Ireland",0.061
+833,"IMN","Isle of Man",0.05
+376,"ISR","Israel",0.08
+380,"ITA","Italy",0.0866
+388,"JAM","Jamaica",0.676
+392,"JPN","Japan",0.0726
+832,"JEY","Jersey",NA
+400,"JOR","Jordan",0.473
+398,"KAZ","Kazakhstan",0.6036
+404,"KEN","Kenya",0.9274
+296,"KIR","Kiribati",0.9915
+689,"XKX","Kosovo",0.4686
+414,"KWT","Kuwait",0.505
+417,"KGZ","Kyrgyzstan",0.9657
+418,"LAO","Laos",0.825
+428,"LVA","Latvia",0.1409
+422,"LBN","Lebanon",0.343
+426,"LSO","Lesotho",0.9714
+430,"LBR","Liberia",0.995
+434,"LBY","Libya",0.7972
+438,"LIE","Liechtenstein",0.354
+440,"LTU","Lithuania",0.1132
+442,"LUX","Luxembourg",0.0241
+446,"MAC","Macao",0.795
+450,"MDG","Madagascar",0.9789
+454,"MWI","Malawi",0.995
+458,"MYS","Malaysia",0.521
+462,"MDV","Maldives",0.87
+466,"MLI","Mali",0.9846
+470,"MLT","Malta",0.0818
+584,"MHL","Marshall Islands",0.7853
+478,"MRT","Mauritania",0.5843
+480,"MUS","Mauritius",0.005
+484,"MEX","Mexico",0.2545
+583,"FSM","Micronesia",0.9725
+498,"MDA","Moldova",0.9184
+492,"MCO","Monaco",0.096
+496,"MNG","Mongolia",0.8297
+499,"MNE","Montenegro",0.9458
+504,"MAR","Morocco",0.6133
+508,"MOZ","Mozambique",0.99
+104,"MMR","Myanmar",0.96
+516,"NAM","Namibia",0.8135
+520,"NRU","Nauru",1
+524,"NPL","Nepal",0.6527
+528,"NLD","Netherlands",0.004
+540,"NCL","New Caledonia",1
+554,"NZL","New Zealand",0.105
+558,"NIC","Nicaragua",0.8401
+562,"NER","Niger",0.975
+566,"NGA","Nigeria",0.8333
+570,"NIU","Niue",NA
+408,"PRK","North Korea",0.9
+807,"MKD","North Macedonia",0.3923
+578,"NOR","Norway",0.0121
+512,"OMN","Oman",0.505
+586,"PAK","Pakistan",0.8033
+585,"PLW","Palau",0.7811
+591,"PAN","Panama",0.448
+598,"PNG","Papua New Guinea",0.7066
+600,"PRY","Paraguay",0.4752
+604,"PER","Peru",0.58
+608,"PHL","Philippines",0.8
+616,"POL","Poland",0.1305
+620,"PRT","Portugal",0.054
+634,"QAT","Qatar",0.098
+178,"COG","Republic of Congo",0.7828
+642,"ROU","Romania",0.3053
+643,"RUS","Russia",0.5888
+646,"RWA","Rwanda",0.9902
+652,"BLM","Saint Barthelemy",NA
+659,"KNA","Saint Kitts and Nevis",0.2229
+662,"LCA","Saint Lucia",0.2623
+670,"VCT","Saint Vincent and the Grenadines",0.4436
+882,"WSM","Samoa",0.632
+674,"SMR","San Marino",0.2798
+678,"STP","Sao Tome and Principe",0.9677
+682,"SAU","Saudi Arabia",0.09
+686,"SEN","Senegal",0.9592
+688,"SRB","Serbia",0.4006
+690,"SYC","Seychelles",0.5794
+694,"SLE","Sierra Leone",0.9941
+702,"SGP","Singapore",0.007
+534,"SXM","Sint Maarten",NA
+703,"SVK","Slovakia",0.132
+705,"SVN","Slovenia",0.1234
+90,"SLB","Solomon Islands",0.9888
+706,"SOM","Somalia",1
+710,"ZAF","South Africa",0.4438
+410,"KOR","South Korea",0.021
+728,"SSD","South Sudan",0.9938
+724,"ESP","Spain",0.0601
+144,"LKA","Sri Lanka",0.8707
+275,"PSE","State of Palestine",0.743
+729,"SDN","Sudan",0.6223
+740,"SUR","Suriname",0.995
+752,"SWE","Sweden",0.0058
+756,"CHE","Switzerland",0.005
+760,"SYR","Syria",0.8
+158,"TWN","Taiwan",0.0448
+762,"TJK","Tajikistan",0.9733
+834,"TZA","Tanzania",0.9715
+764,"THA","Thailand",0.6463
+626,"TLS","Timor-Leste",0.9545
+768,"TGO","Togo",0.9768
+776,"TON","Tonga",0.7765
+780,"TTO","Trinidad and Tobago",0.943
+788,"TUN","Tunisia",0.67
+792,"TUR","Turkey",0.44
+795,"TKM","Turkmenistan",0.3485
+796,"TCA","Turks and Caicos Islands",NA
+798,"TUV","Tuvalu",0.8892
+800,"UGA","Uganda",0.9226
+804,"UKR","Ukraine",0.4853
+784,"ARE","United Arab Emirates",0.324
+826,"GBR","United Kingdom",0.0404
+840,"USA","United States of America",0.0405
+858,"URY","Uruguay",0.5922
+860,"UZB","Uzbekistan",0.919
+548,"VUT","Vanuatu",0.7938
+862,"VEN","Venezuela",0.935
+704,"VNM","Viet Nam",0.7797
+876,"WLF","Wallis and Futuna Islands",NA
+732,"ESH","Western Sahara",NA
+887,"YEM","Yemen",0.752
+894,"ZMB","Zambia",0.959
+716,"ZWE","Zimbabwe",0.9094
