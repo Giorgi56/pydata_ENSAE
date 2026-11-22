@@ -23,6 +23,11 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+## Notre motivation
+Au-delà de la vérification du travail qui a déjà été effectué pour comparer les efforts des différents pays, nous voulons mettre en valeur les efforts faits par certains pays pauvres quant à leurs problèmes environnementaux présents. En effet, améliorer la qualité de l'air est une nécessité immédiate, tandis que la réduction des émissions des GES est un luxe que seuls les pays riches peuvent se permettre puisqu'ils n'ont pas de contraintes d'action immédiate. On ne prend par contre pas en compte le PIB/hab. 
+
+## Notre méthode de calcul du nouveau indicateur
+
 ## Plan détaillé des tâches à réaliser:
 
 - [x] Trouver le sujet et le dataset, télécharger les données CSV
@@ -58,3 +63,5 @@ Une fois qu'on aura créé nos branches personnelles, nous allons faire des comm
 + Édition Markdown: https://www.markdownlang.com/
 + Nested Pie Charts with Matplotlib: https://matplotlib.org/stable/gallery/pie_and_polar_charts/nested_pie.html
 + Docu générale de Matplotlib: https://matplotlib.org/stable/
++ Geopandas docu: https://geopandas.org/en/stable/index.html
++ Geopandas interactive mapping: https://geopandas.org/en/stable/docs/user_guide/interactive_mapping.html
