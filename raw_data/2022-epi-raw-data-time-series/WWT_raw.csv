@@ -1,0 +1,221 @@
+"code","iso","country","WWT.raw.2020"
+4,"AFG","Afghanistan",0
+8,"ALB","Albania",0.01853
+12,"DZA","Algeria",0.3312
+20,"AND","Andorra",1
+24,"AGO","Angola",0
+660,"AIA","Anguilla",-8888
+28,"ATG","Antigua and Barbuda",0.157114912038728
+32,"ARG","Argentina",0.059236
+51,"ARM","Armenia",0.044811
+533,"ABW","Aruba",-8888
+36,"AUS","Australia",0.929
+40,"AUT","Austria",0.94
+31,"AZE","Azerbaijan",0.039
+44,"BHS","Bahamas",0.174214280808331
+48,"BHR","Bahrain",0.88
+50,"BGD","Bangladesh",0
+52,"BRB","Barbados",0
+112,"BLR","Belarus",0.557886
+56,"BEL","Belgium",0.6816
+84,"BLZ","Belize",0.00412421815339915
+204,"BEN","Benin",0.096030598693752
+60,"BMU","Bermuda",-8888
+64,"BTN","Bhutan",0
+68,"BOL","Bolivia",0.03509
+70,"BIH","Bosnia and Herzegovina",0.01147
+72,"BWA","Botswana",0.0095
+76,"BRA","Brazil",0.52409
+92,"VGB","British Virgin Islands",-8888
+96,"BRN","Brunei Darussalam",0.0582347424425344
+100,"BGR","Bulgaria",0.1392
+854,"BFA","Burkina Faso",0
+108,"BDI","Burundi",0
+132,"CPV","Cabo Verde",0.247
+116,"KHM","Cambodia",0
+120,"CMR","Cameroon",0
+124,"CAN","Canada",0.6744
+136,"CYM","Cayman Islands",-8888
+140,"CAF","Central African Republic",0
+148,"TCD","Chad",0
+152,"CHL","Chile",0.71856
+156,"CHN","China",0.0936
+170,"COL","Colombia",0.25872
+174,"COM","Comoros",0.100617833154652
+184,"COK","Cook Islands",-8888
+188,"CRI","Costa Rica",0.071744
+384,"CIV","Cote d'Ivoire",0.0115875231398336
+191,"HRV","Croatia",0.68992
+192,"CUB","Cuba",0.01695
+531,"CUW","Curacao",-8888
+196,"CYP","Cyprus",0.5
+203,"CZE","Czech Republic",0.615
+180,"COD","Dem. Rep. Congo",0.00148334047969916
+208,"DNK","Denmark",1
+262,"DJI","Djibouti",0
+212,"DMA","Dominica",0.00913580605354056
+214,"DOM","Dominican Republic",0.05844
+218,"ECU","Ecuador",0
+818,"EGY","Egypt",0.41958
+222,"SLV","El Salvador",7e-04
+226,"GNQ","Equatorial Guinea",0.0125
+232,"ERI","Eritrea",0
+233,"EST","Estonia",0.704
+748,"SWZ","Eswatini",0.7
+231,"ETH","Ethiopia",0.000781314967960089
+234,"FRO","Faeroe Islands",-8888
+238,"FLK","Falkland Islands",-8888
+242,"FJI","Fiji",0.039
+246,"FIN","Finland",1
+250,"FRA","France",0.88
+258,"PYF","French Polynesia",-8888
+266,"GAB","Gabon",0
+270,"GMB","Gambia",0.0794135750364151
+268,"GEO","Georgia",0.4664
+276,"DEU","Germany",0.97
+288,"GHA","Ghana",0.03
+300,"GRC","Greece",0.81664
+304,"GRL","Greenland",-8888
+308,"GRD","Grenada",0.150705026448816
+320,"GTM","Guatemala",0.068
+831,"GGY","Guernsey",-8888
+324,"GIN","Guinea",0
+624,"GNB","Guinea-Bissau",0
+328,"GUY","Guyana",0
+332,"HTI","Haiti",0.0710397055688972
+336,"VAT","Holy See",-8888
+340,"HND","Honduras",0.0315
+344,"HKG","Hong Kong",0.95
+348,"HUN","Hungary",0.553
+352,"ISL","Iceland",0.152535620051478
+356,"IND","India",0.022464
+360,"IDN","Indonesia",2e-04
+364,"IRN","Iran",0.0373
+368,"IRQ","Iraq",0.13095
+372,"IRL","Ireland",0.8695
+833,"IMN","Isle of Man",-8888
+376,"ISR","Israel",0.816992
+380,"ITA","Italy",0.5875
+388,"JAM","Jamaica",0.03
+392,"JPN","Japan",0.748436
+832,"JEY","Jersey",-8888
+400,"JOR","Jordan",0.1863
+398,"KAZ","Kazakhstan",0.275
+404,"KEN","Kenya",0.0106
+296,"KIR","Kiribati",0.0450788498707433
+689,"XKX","Kosovo",-8888
+414,"KWT","Kuwait",0.431
+417,"KGZ","Kyrgyzstan",0.0856221555971551
+418,"LAO","Laos",0
+428,"LVA","Latvia",0.907
+422,"LBN","Lebanon",0.38164
+426,"LSO","Lesotho",0.003
+430,"LBR","Liberia",0
+434,"LBY","Libya",0.096
+438,"LIE","Liechtenstein",-8888
+440,"LTU","Lithuania",0.5226
+442,"LUX","Luxembourg",0.98
+446,"MAC","Macao",0.166622795871345
+450,"MDG","Madagascar",0
+454,"MWI","Malawi",0
+458,"MYS","Malaysia",0.12608
+462,"MDV","Maldives",0.0380016750309845
+466,"MLI","Mali",0
+470,"MLT","Malta",0
+584,"MHL","Marshall Islands",-8888
+478,"MRT","Mauritania",0
+480,"MUS","Mauritius",0.0275
+484,"MEX","Mexico",0.252004
+583,"FSM","Micronesia",-8888
+498,"MDA","Moldova",0.0918
+492,"MCO","Monaco",1
+496,"MNG","Mongolia",0.033
+499,"MNE","Montenegro",0.0837
+504,"MAR","Morocco",0.054
+508,"MOZ","Mozambique",0.2
+104,"MMR","Myanmar",0
+516,"NAM","Namibia",0.05
+520,"NRU","Nauru",0.153319318955301
+524,"NPL","Nepal",0
+528,"NLD","Netherlands",1
+540,"NCL","New Caledonia",-8888
+554,"NZL","New Zealand",0.79895
+558,"NIC","Nicaragua",0
+562,"NER","Niger",0
+566,"NGA","Nigeria",0.00154
+570,"NIU","Niue",-8888
+408,"PRK","North Korea",0
+807,"MKD","North Macedonia",0.00824049472346331
+578,"NOR","Norway",0.6435
+512,"OMN","Oman",0.134
+586,"PAK","Pakistan",0.001
+585,"PLW","Palau",0.4
+591,"PAN","Panama",0.231
+598,"PNG","Papua New Guinea",0
+600,"PRY","Paraguay",0.00735
+604,"PER","Peru",0.40992
+608,"PHL","Philippines",0.0082
+616,"POL","Poland",0.61465
+620,"PRT","Portugal",0.5916
+634,"QAT","Qatar",0.7
+178,"COG","Republic of Congo",0.0884139290064119
+642,"ROU","Romania",0.25688
+643,"RUS","Russia",0.185
+646,"RWA","Rwanda",0
+652,"BLM","Saint Barthelemy",-8888
+659,"KNA","Saint Kitts and Nevis",0.00574163909608375
+662,"LCA","Saint Lucia",0.14043905885593
+670,"VCT","Saint Vincent and the Grenadines",0.139514105935379
+882,"WSM","Samoa",0.00948683840721739
+674,"SMR","San Marino",-8888
+678,"STP","Sao Tome and Principe",0.109221657118695
+682,"SAU","Saudi Arabia",0.376996
+686,"SEN","Senegal",0.005
+688,"SRB","Serbia",0.006962
+690,"SYC","Seychelles",0.194515200879133
+694,"SLE","Sierra Leone",0
+702,"SGP","Singapore",1
+534,"SXM","Sint Maarten",-8888
+703,"SVK","Slovakia",0.44655
+705,"SVN","Slovenia",0.9216
+90,"SLB","Solomon Islands",0.0120031763086648
+706,"SOM","Somalia",0.0490937706978134
+710,"ZAF","South Africa",0.2166
+410,"KOR","South Korea",0.768366
+728,"SSD","South Sudan",0.0524297215516033
+724,"ESP","Spain",0.9114
+144,"LKA","Sri Lanka",0
+275,"PSE","State of Palestine",0.143341654134376
+729,"SDN","Sudan",0
+740,"SUR","Suriname",0.131772143577084
+752,"SWE","Sweden",1
+756,"CHE","Switzerland",0.97
+760,"SYR","Syria",0.48
+158,"TWN","Taiwan",0.0648
+762,"TJK","Tajikistan",0.0225
+834,"TZA","Tanzania",0.02934
+764,"THA","Thailand",0.018
+626,"TLS","Timor-Leste",0.00582041462438276
+768,"TGO","Togo",0
+776,"TON","Tonga",-8888
+780,"TTO","Trinidad and Tobago",0.0295372639902355
+788,"TUN","Tunisia",0.4304
+792,"TUR","Turkey",0.3053
+795,"TKM","Turkmenistan",0.098
+796,"TCA","Turks and Caicos Islands",0.156450463233489
+798,"TUV","Tuvalu",0.0811837226572259
+800,"UGA","Uganda",0.0042
+804,"UKR","Ukraine",0.141267
+784,"ARE","United Arab Emirates",0.921159
+826,"GBR","United Kingdom",0.99
+840,"USA","United States of America",0.5889
+858,"URY","Uruguay",0.0215
+860,"UZB","Uzbekistan",0
+548,"VUT","Vanuatu",0.0452396555289052
+862,"VEN","Venezuela",0.06426
+704,"VNM","Viet Nam",0.003
+876,"WLF","Wallis and Futuna Islands",-8888
+732,"ESH","Western Sahara",-8888
+887,"YEM","Yemen",0
+894,"ZMB","Zambia",0.045
+716,"ZWE","Zimbabwe",0.37191

@@ -1,0 +1,221 @@
+"code","iso","country","TCA.raw.2000"
+4,"AFG","Afghanistan",284357
+8,"ALB","Albania",753090
+12,"DZA","Algeria",1419827
+20,"AND","Andorra",19750
+24,"AGO","Angola",65933551
+660,"AIA","Anguilla",2571
+28,"ATG","Antigua and Barbuda",20238
+32,"ARG","Argentina",41252923
+51,"ARM","Armenia",357617
+533,"ABW","Aruba",110
+36,"AUS","Australia",48215110
+40,"AUT","Austria",4417530
+31,"AZE","Azerbaijan",1389912
+44,"BHS","Bahamas",327747
+48,"BHR","Bahrain",0
+50,"BGD","Bangladesh",2194962
+52,"BRB","Barbados",5590
+112,"BLR","Belarus",9376194
+56,"BEL","Belgium",913585
+84,"BLZ","Belize",1761509
+204,"BEN","Benin",834666
+60,"BMU","Bermuda",658
+64,"BTN","Bhutan",2624344
+68,"BOL","Bolivia",65454397
+70,"BIH","Bosnia and Herzegovina",2777231
+72,"BWA","Botswana",102705
+76,"BRA","Brazil",532402423
+92,"VGB","British Virgin Islands",7963
+96,"BRN","Brunei Darussalam",531387
+100,"BGR","Bulgaria",4323225
+854,"BFA","Burkina Faso",3734
+108,"BDI","Burundi",921310
+132,"CPV","Cabo Verde",8009
+116,"KHM","Cambodia",9443950
+120,"CMR","Cameroon",35158678
+124,"CAN","Canada",437098734
+136,"CYM","Cayman Islands",13929
+140,"CAF","Central African Republic",52858601
+148,"TCD","Chad",1200860
+152,"CHL","Chile",19949634
+156,"CHN","China",175556838
+170,"COL","Colombia",82924172
+174,"COM","Comoros",144653
+184,"COK","Cook Islands",NA
+188,"CRI","Costa Rica",3994047
+384,"CIV","Cote d'Ivoire",NA
+191,"HRV","Croatia",2570373
+192,"CUB","Cuba",4188617
+531,"CUW","Curacao",NA
+196,"CYP","Cyprus",124799
+203,"CZE","Czech Republic",3154584
+180,"COD","Dem. Rep. Congo",214447160
+208,"DNK","Denmark",703291
+262,"DJI","Djibouti",0
+212,"DMA","Dominica",71257
+214,"DOM","Dominican Republic",2696044
+218,"ECU","Ecuador",19339750
+818,"EGY","Egypt",452595
+222,"SLV","El Salvador",1052471
+226,"GNQ","Equatorial Guinea",2659671
+232,"ERI","Eritrea",28
+233,"EST","Estonia",2695262
+748,"SWZ","Eswatini",648050
+231,"ETH","Ethiopia",16513114
+234,"FRO","Faeroe Islands",NA
+238,"FLK","Falkland Islands",2980
+242,"FJI","Fiji",1595097
+246,"FIN","Finland",22134170
+250,"FRA","France",17581726
+258,"PYF","French Polynesia",NA
+266,"GAB","Gabon",25062630
+270,"GMB","Gambia",30469
+268,"GEO","Georgia",3253560
+276,"DEU","Germany",12915846
+288,"GHA","Ghana",8230695
+300,"GRC","Greece",4303514
+304,"GRL","Greenland",0
+308,"GRD","Grenada",28971
+320,"GTM","Guatemala",7949440
+831,"GGY","Guernsey",1766
+324,"GIN","Guinea",12426851
+624,"GNB","Guinea-Bissau",1677845
+328,"GUY","Guyana",19030639
+332,"HTI","Haiti",950111
+336,"VAT","Holy See",7
+340,"HND","Honduras",8047225
+344,"HKG","Hong Kong",65393
+348,"HUN","Hungary",2112581
+352,"ISL","Iceland",NA
+356,"IND","India",43702784
+360,"IDN","Indonesia",162782759
+364,"IRN","Iran",1851258
+368,"IRQ","Iraq",25194
+372,"IRL","Ireland",905022
+833,"IMN","Isle of Man",14129
+376,"ISR","Israel",39421
+380,"ITA","Italy",9989347
+388,"JAM","Jamaica",784791
+392,"JPN","Japan",26733845
+832,"JEY","Jersey",1754
+400,"JOR","Jordan",3187
+398,"KAZ","Kazakhstan",4837355
+404,"KEN","Kenya",4292246
+296,"KIR","Kiribati",0
+689,"XKX","Kosovo",391018
+414,"KWT","Kuwait",0
+417,"KGZ","Kyrgyzstan",793153
+418,"LAO","Laos",19441264
+428,"LVA","Latvia",3628576
+422,"LBN","Lebanon",77790
+426,"LSO","Lesotho",14390
+430,"LBR","Liberia",9446136
+434,"LBY","Libya",13900
+438,"LIE","Liechtenstein",9421
+440,"LTU","Lithuania",2389066
+442,"LUX","Luxembourg",103505
+446,"MAC","Macao",454
+450,"MDG","Madagascar",19454929
+454,"MWI","Malawi",2460637
+458,"MYS","Malaysia",29583873
+462,"MDV","Maldives",5637
+466,"MLI","Mali",151534
+470,"MLT","Malta",139
+584,"MHL","Marshall Islands",NA
+478,"MRT","Mauritania",36
+480,"MUS","Mauritius",89079
+484,"MEX","Mexico",57502702
+583,"FSM","Micronesia",6347
+498,"MDA","Moldova",400124
+492,"MCO","Monaco",1
+496,"MNG","Mongolia",4757437
+499,"MNE","Montenegro",655021
+504,"MAR","Morocco",822653
+508,"MOZ","Mozambique",39859115
+104,"MMR","Myanmar",43930177
+516,"NAM","Namibia",19646
+520,"NRU","Nauru",0
+524,"NPL","Nepal",5366019
+528,"NLD","Netherlands",657430
+540,"NCL","New Caledonia",1501658
+554,"NZL","New Zealand",11418538
+558,"NIC","Nicaragua",8037770
+562,"NER","Niger",12
+566,"NGA","Nigeria",13974174
+570,"NIU","Niue",NA
+408,"PRK","North Korea",5501366
+807,"MKD","North Macedonia",842949
+578,"NOR","Norway",12155489
+512,"OMN","Oman",13
+586,"PAK","Pakistan",1222965
+585,"PLW","Palau",41642
+591,"PAN","Panama",5807150
+598,"PNG","Papua New Guinea",43271631
+600,"PRY","Paraguay",25774239
+604,"PER","Peru",78453735
+608,"PHL","Philippines",19165121
+616,"POL","Poland",10759012
+620,"PRT","Portugal",2601291
+634,"QAT","Qatar",0
+178,"COG","Republic of Congo",29291482
+642,"ROU","Romania",8201225
+643,"RUS","Russia",810019204
+646,"RWA","Rwanda",760121
+652,"BLM","Saint Barthelemy",NA
+659,"KNA","Saint Kitts and Nevis",13755
+662,"LCA","Saint Lucia",51472
+670,"VCT","Saint Vincent and the Grenadines",29662
+882,"WSM","Samoa",NA
+674,"SMR","San Marino",1007
+678,"STP","Sao Tome and Principe",NA
+682,"SAU","Saudi Arabia",7
+686,"SEN","Senegal",289083
+688,"SRB","Serbia",2901863
+690,"SYC","Seychelles",8053
+694,"SLE","Sierra Leone",6185242
+702,"SGP","Singapore",19965
+534,"SXM","Sint Maarten",1069
+703,"SVK","Slovakia",2439691
+705,"SVN","Slovenia",1316304
+90,"SLB","Solomon Islands",2745124
+706,"SOM","Somalia",174486
+710,"ZAF","South Africa",7708860
+410,"KOR","South Korea",5578722
+728,"SSD","South Sudan",18668019
+724,"ESP","Spain",12477409
+144,"LKA","Sri Lanka",4117766
+275,"PSE","State of Palestine",1134
+729,"SDN","Sudan",324509
+740,"SUR","Suriname",13964163
+752,"SWE","Sweden",28562851
+756,"CHE","Switzerland",1586836
+760,"SYR","Syria",124773
+158,"TWN","Taiwan",2383199
+762,"TJK","Tajikistan",99251
+834,"TZA","Tanzania",36452812
+764,"THA","Thailand",20870274
+626,"TLS","Timor-Leste",800179
+768,"TGO","Togo",907847
+776,"TON","Tonga",NA
+780,"TTO","Trinidad and Tobago",396148
+788,"TUN","Tunisia",249252
+792,"TUR","Turkey",11557642
+795,"TKM","Turkmenistan",14626
+796,"TCA","Turks and Caicos Islands",12833
+798,"TUV","Tuvalu",0
+800,"UGA","Uganda",10688793
+804,"UKR","Ukraine",12064555
+784,"ARE","United Arab Emirates",0
+826,"GBR","United Kingdom",3954476
+840,"USA","United States of America",293871020
+858,"URY","Uruguay",1776834
+860,"UZB","Uzbekistan",155917
+548,"VUT","Vanuatu",1183242
+862,"VEN","Venezuela",57548171
+704,"VNM","Viet Nam",17239528
+876,"WLF","Wallis and Futuna Islands",NA
+732,"ESH","Western Sahara",0
+887,"YEM","Yemen",420
+894,"ZMB","Zambia",34043830
+716,"ZWE","Zimbabwe",2937862
