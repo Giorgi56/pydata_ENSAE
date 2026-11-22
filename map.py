@@ -1,0 +1,1 @@
+# Fichier python qui affiche la carte du monde avec un gradient de couleur sur les valeurs de l'indice general EPI
