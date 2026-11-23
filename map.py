@@ -11,12 +11,12 @@ import matplotlib.pyplot as plt
 # Lecture du fichier Excel contenant les résultats officiels de l'EPI 2022.
 # On conserve les codes ISO, les noms des pays et leurs scores EPI.
 
-df = pd.read_excel(
+df_original = pd.read_excel(
     "raw_data/2022-epi.xlsx",
     sheet_name="3_EPI_Results"
 )
 
-df = df[["iso", "country", "EPI.new"]]
+df = df_original[["iso", "country", "EPI.new"]]
 
 
 # 2. Chargement des données géographiques
@@ -103,3 +103,61 @@ m = carte.explore(
 )
 
 m.save("carte_epi_interactive_2022.html")
+
+
+# Même raisonnement pour que la carte précèdente, sauf qu'on procède par régions
+
+
+df2 = df_original[["iso", "country", "region", "EPI.new"]]
+
+
+moyennes_regions = (
+    df2.groupby("region")["EPI.new"]
+    .mean()
+)
+
+
+carte2 = world.merge(
+    df2,
+    left_on="ADM0_A3",
+    right_on="iso",
+    how="left"
+)
+
+
+carte2["EPI_moyen_region"] = (
+    carte2["region"].map(moyennes_regions)
+)
+
+carte2.loc[
+    carte2["EPI.new"].isna(),
+    "EPI_moyen_region"
+] = float("nan")
+
+m2 = carte2.explore(
+    column="EPI_moyen_region",
+    cmap="RdYlGn",
+    vmin=0,
+    vmax=100,
+    legend=True,
+    legend_kwds={
+        "caption": "Score EPI moyen par région"
+    },
+    tooltip=[
+        "ADMIN",
+        "region",
+        "EPI.new",
+        "EPI_moyen_region"
+    ],
+    tooltip_kwds={
+        "aliases": [
+            "Pays :",
+            "Région :",
+            "Score EPI du pays :",
+            "Score EPI moyen de la région :"
+        ]
+    },
+    missing_kwds={"color": "lightgrey"}
+)
+
+m2.save("carte_epi_interactive_regions_2022.html")
