@@ -55,3 +55,12 @@ plt.xlabel("axe 1 (" + str(round(acp.explained_variance_ratio_[0] * 100)) + " %)
 plt.ylabel("axe 2 (" + str(round(acp.explained_variance_ratio_[1] * 100)) + " %)")
 plt.title("Plan factoriel, couleur = groupe kmeans")
 plt.show()
+
+# ce qu'on en retient :
+# - attention l'ACP donne pas un "meilleur" EPI, elle surpondère les categories redondantes (double comptage)
+# - les 11 categories c'est pas 11 infos independantes : un gros bloc "developpement" (axe 1, 46%)
+#   + une dimension plutot geographique (axe 2, les pays arides)
+# - les experts mettent ~23% sur ce bloc et 38% sur le climat -> ca neutralise le double comptage
+#   et donc le poids de la richesse (le papier le justifie pas comme ça mais c'est ce que ça fait)
+# - selon la façon de pondérer certains pays bougent de 90 places, le classement dépend beaucoup
+#   d'un choix que le papier présente comme technique
