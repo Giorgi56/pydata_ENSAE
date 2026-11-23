@@ -10,7 +10,7 @@ def charger_donnees():
     """une ligne par pays : region, EPI, les 11 categories et le PIB/hab de 2020"""
     epi = pd.read_excel("raw_data/2022-epi.xlsx", sheet_name="3_EPI_Results").set_index("iso")
     # .new = score 2022 (.old c'est l'annee de reference, on s'en sert pas ici)
-    colonnes = ["EPI"] + CATEGORIES
+    colonnes = ["EPI", "HLT", "ECO", "PCC"] + CATEGORIES  # HLT ECO PCC = les 3 objectifs
     df = epi[["country", "region"] + [c + ".new" for c in colonnes]].copy()
     df.columns = ["country", "region"] + colonnes
 
