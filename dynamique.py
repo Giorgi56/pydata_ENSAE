@@ -1,0 +1,67 @@
+import pandas as pd
+import os
+
+dossier = "raw_data/2022-epi-indicators-time-series-na"
+
+df_global = None
+
+
+# On parcourt les 40 fichiers CSV : pour chaque indicateur, on transforme
+# les années en lignes avec melt(), puis on effectue une jointure sur
+# les pays et les années afin de construire un DataFrame global (et surtout dynamique).
+# Les valeurs manquantes (NaN) sont conservées pour être traitées ensuite.
+
+for fichier in sorted(os.listdir(dossier)):
+
+    if not fichier.endswith("_ind_na.csv"):
+        continue
+
+    # Nom de l'indicateur (BCA, BHV, CDA...)
+    indicateur = fichier.split("_")[0]
+
+    df = pd.read_csv(dossier + "/" + fichier)
+
+    # Transformation des années en lignes
+    df = df.melt(
+        id_vars=["code", "iso", "country"],
+        var_name="year",
+        value_name=indicateur
+    )
+
+    # Extraction de l'année
+    df["year"] = df["year"].str.extract(r"(\d{4})").astype(int)
+
+    # Jointure avec les indicateurs précédents
+    if df_global is None:
+        df_global = df
+    else:
+        df_global = pd.merge(
+            df_global,
+            df,
+            on=["code", "iso", "country", "year"],
+            how="outer"
+        )
+
+
+# Récupération des régions depuis le fichier Excel EPI 2022
+df_original = pd.read_excel(
+    "raw_data/2022-epi.xlsx",
+    sheet_name="3_EPI_Results"
+)
+
+# On conserve uniquement les codes ISO et les régions
+df_regions = df_original[["iso", "region"]]
+
+# Ajout de la région à chaque pays de notre base historique
+df_global = pd.merge(
+    df_global,
+    df_regions,
+    on="iso",
+    how="left",
+    validate="many_to_one"
+)
+
+
+#On conserve uniquement les 180 pays présents dans l’EPI 2022
+df_etude = df_global[df_global["region"].notna()].copy()
+
