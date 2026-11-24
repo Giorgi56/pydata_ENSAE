@@ -62,6 +62,22 @@ df_global = pd.merge(
 )
 
 
-#On conserve uniquement les 180 pays présents dans l’EPI 2022
-df_etude = df_global[df_global["region"].notna()].copy()
+# On conserve uniquement les 180 pays présents dans l’EPI 2022
+df_etude_na = df_global[df_global["region"].notna()].copy()
 
+# Création d'une copie pour le traitement des valeurs manquantes
+df_etude = df_etude_na.copy()
+
+# Sélection des 40 indicateurs
+indicateurs = df_etude.columns.drop(
+    ["code", "iso", "country", "year", "region"]
+)
+
+# Imputation par la moyenne régionale pour chaque année pour les NA qui restent
+df_etude[indicateurs] = df_etude[indicateurs].fillna(
+    df_etude.groupby(["region", "year"])[indicateurs].transform("mean")
+)
+
+# Sauvegarde des deux bases de données
+df_etude_na.to_csv("epi_historique_nettoye_na.csv", index=False)
+df_etude.to_csv("epi_historique_nettoye.csv", index=False)
