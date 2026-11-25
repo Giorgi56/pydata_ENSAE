@@ -184,7 +184,7 @@ ax.bar(
     align="edge",
 )
 
-# Add short labels inside larger slices
+# Add labels inside larger slices
 for start, width, label in zip(obj_starts, obj_angles, obj_labels):
     if width > 0.35:
         mid_angle = start + width / 2
@@ -214,23 +214,6 @@ for start, width, label in zip(grp_starts, grp_angles, grp_labels):
             color="#111111",
         )
 
-# Build a clean legend for Policy Objectives and Groups
-legend_handles = [Patch(facecolor="#FFFFFF", edgecolor="none", label="Policy Objectives:")]
-for lbl, col in zip(obj_labels, obj_colors):
-    legend_handles.append(Patch(facecolor=col, edgecolor="w", label=f"  {lbl}"))
-
-legend_handles.append(Patch(facecolor="#FFFFFF", edgecolor="none", label="Groups:"))
-for lbl, col in zip(grp_labels, grp_colors):
-    legend_handles.append(Patch(facecolor=col, edgecolor="w", label=f"  {lbl}"))
-
-ax.legend(
-    handles=legend_handles,
-    loc="center left",
-    bbox_to_anchor=(1.12, 0.5),
-    frameon=False,
-    fontsize=8.5,
-)
-
 ax.set_ylim(0, 1.05)
 ax.set_theta_zero_location("N")
 ax.set_theta_direction(-1)
@@ -239,3 +222,4 @@ ax.set_title("EPI Performance Indicator Weights (Nested Hierarchy)", pad=20, fon
 
 plt.tight_layout()
 plt.show()
+
