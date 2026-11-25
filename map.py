@@ -35,7 +35,7 @@ world = gpd.read_file(url)
 
 
 # Enregistrement du jeu de données géographiques en local
-# world.to_file("raw_data/world.geojson", driver="GeoJSON")
+world.to_file("world.geojson", driver="GeoJSON")
 
 
 # 3. Jointure des données EPI et géographiques
