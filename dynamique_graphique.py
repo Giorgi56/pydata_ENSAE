@@ -10,12 +10,11 @@
 # 4 Évolution du classement international moyen par région
 
 
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # Importation de la base historique finale
-df = pd.read_csv("epi_historique_final.csv")
+#df = pd.read_csv("epi(historique)/epi_historique_final.csv")
 
 # 1. Évolution de l'EPI moyen et médian mondial
 
@@ -37,7 +36,7 @@ def graphique_evolution_epi_moyen_median_mondial(df):
     plt.tight_layout()
     plt.show()
 
-# 2.1. Évolution de l'EPI moyen par région
+# 2. Évolution de l'EPI moyen par région
 
 def graphique_evolution_epi_moyen_par_region(df):
 
@@ -102,7 +101,7 @@ def graphique_classement_variation_epi_par_pays(df):
     plt.tight_layout()
     plt.show()
 
-# 4 Évolution du classement international moyen par région
+# 4. Évolution du classement international moyen par région
 
 def graphique_evolution_classement_par_region(df):
 

@@ -1,3 +1,13 @@
+# Construction de la base historique et calcul du nouvel EPI (1995-2022).
+
+# 1. Fusion des 40 fichiers CSV en une base historique globale.
+# 2. Ajout des régions et sélection des 180 pays de l'EPI 2022.
+# 3. Imputation des valeurs manquantes par la moyenne régionale annuelle.
+# 4. Importation des nouvelles pondérations des 26 indicateurs retenus.
+# 5. Calcul du nouvel EPI pour chaque pays et chaque année.
+# 6. Sauvegarde des bases intermédiaires et finale dans "epi(historique)".
+
+
 import pandas as pd
 import os
 
@@ -42,6 +52,7 @@ for fichier in sorted(os.listdir(dossier)):
             how="outer"
         )
 
+#df_global.to_csv("epi(historique)/epi_historique.csv", index=False)
 
 # Récupération des régions depuis le fichier Excel EPI 2022
 df_original = pd.read_excel(
@@ -78,9 +89,12 @@ df_etude[indicateurs] = df_etude[indicateurs].fillna(
     df_etude.groupby(["region", "year"])[indicateurs].transform("mean")
 )
 
+
 # Sauvegarde des deux bases de données
-df_etude_na.to_csv("epi_historique_nettoye_na.csv", index=False)
-df_etude.to_csv("epi_historique_nettoye.csv", index=False)
+#df_etude_na.to_csv("epi(historique)/epi_historique_nettoye_na.csv", index=False)
+
+#df_etude.to_csv("epi(historique)/epi_historique_nettoye.csv", index=False)
+
 
 # Importation des nouvelles pondérations
 df_poids = pd.read_excel("clear_indices.xlsx")
@@ -115,4 +129,4 @@ df_etude["EPI_new"] = (
 
 
 # Sauvegarde de la base historique avec le nouvel EPI
-df_etude.to_csv("epi_historique_final.csv", index=False)
+#df_etude.to_csv("epi(historique)/epi_historique_final.csv", index=False)
