@@ -97,7 +97,7 @@ df_etude[indicateurs] = df_etude[indicateurs].fillna(
 
 
 # Importation des nouvelles pondérations
-df_poids = pd.read_excel("clear_indices.xlsx")
+df_poids = pd.read_excel("niels/clear_indices.xlsx")
 
 
 # Importation de la nomenclature officielle de l'EPI
@@ -130,3 +130,4 @@ df_etude["EPI_new"] = (
 
 # Sauvegarde de la base historique avec le nouvel EPI
 #df_etude.to_csv("epi(historique)/epi_historique_final.csv", index=False)
+
