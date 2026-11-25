@@ -35,8 +35,7 @@ world = gpd.read_file(url)
 
 
 # Enregistrement du jeu de données géographiques en local
-world.to_file("world.geojson", driver="GeoJSON")
-
+world.to_file("carte/world.geojson", driver="GeoJSON")
 
 # 3. Jointure des données EPI et géographiques
 
@@ -83,7 +82,7 @@ carte.plot(
 ax.set_title("Indice de performance environnementale (EPI) en 2022")
 ax.set_axis_off()
 
-plt.savefig("carte_epi_statique_2022.png", dpi=300, bbox_inches="tight")
+plt.savefig("carte/carte_epi_statique_2022.png", dpi=300, bbox_inches="tight")
 
 
 # 5. Création de la carte interactive
@@ -102,7 +101,7 @@ m = carte.explore(
     missing_kwds={"color": "lightgrey"}
 )
 
-m.save("carte_epi_interactive_2022.html")
+m.save("carte/carte_epi_interactive_2022.html")
 
 
 # Même raisonnement pour que la carte précèdente, sauf qu'on procède par régions
@@ -160,4 +159,4 @@ m2 = carte2.explore(
     missing_kwds={"color": "lightgrey"}
 )
 
-m2.save("carte_epi_interactive_regions_2022.html")
+m2.save("carte/carte_epi_interactive_regions_2022.html")
