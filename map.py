@@ -35,7 +35,7 @@ world = gpd.read_file(url)
 
 
 # Enregistrement du jeu de données géographiques en local
-world.to_file("carte/world.geojson", driver="GeoJSON")
+#world.to_file("carte/world.geojson", driver="GeoJSON")
 
 # 3. Jointure des données EPI et géographiques
 
@@ -101,7 +101,7 @@ m = carte.explore(
     missing_kwds={"color": "lightgrey"}
 )
 
-m.save("carte/carte_epi_interactive_2022.html")
+#m.save("carte/carte_epi_interactive_2022.html")
 
 
 # Même raisonnement pour que la carte précèdente, sauf qu'on procède par régions
@@ -159,4 +159,4 @@ m2 = carte2.explore(
     missing_kwds={"color": "lightgrey"}
 )
 
-m2.save("carte/carte_epi_interactive_regions_2022.html")
+#m2.save("carte/carte_epi_interactive_regions_2022.html")
