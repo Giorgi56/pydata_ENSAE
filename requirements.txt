@@ -10,4 +10,7 @@ geopandas==1.1.1
 openpyxl==3.1.5   # Lecture des fichiers Excel (.xlsx) avec pandas
 geopandas==1.2.0  # Manipulation et visualisation des données géographiques
 folium==1.0.0
+mapclassify==2.11.0openpyxl==3.1.5   # Lecture des fichiers Excel (.xlsx) avec pandas
+geopandas==1.2.0  # Manipulation et visualisation des données géographiques
+folium==1.0.0
 mapclassify==2.11.0
