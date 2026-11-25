@@ -65,7 +65,8 @@ carte = world.merge(
 # 4. Création de la carte statique
 
 # Représentation des scores EPI par un dégradé allant du jaune (score faible)
-# au vert foncé (score élevé). Les territoires sans score apparaissent en gris.
+# au vert foncé (score élevé). 
+
 
 
 fig, ax = plt.subplots(figsize=(15, 8))
@@ -82,7 +83,7 @@ carte.plot(
 ax.set_title("Indice de performance environnementale (EPI) en 2022")
 ax.set_axis_off()
 
-plt.savefig("carte/carte_epi_statique_2022.png", dpi=300, bbox_inches="tight")
+#plt.savefig("carte/carte_epi_statique_2022.png", dpi=300, bbox_inches="tight")
 
 
 # 5. Création de la carte interactive
@@ -128,10 +129,12 @@ carte2["EPI_moyen_region"] = (
     carte2["region"].map(moyennes_regions)
 )
 
+
 carte2.loc[
     carte2["EPI.new"].isna(),
     "EPI_moyen_region"
 ] = float("nan")
+
 
 m2 = carte2.explore(
     column="EPI_moyen_region",
@@ -159,4 +162,5 @@ m2 = carte2.explore(
     missing_kwds={"color": "lightgrey"}
 )
 
-#m2.save("carte/carte_epi_interactive_regions_2022.html")
+
+# m2.save("carte/carte_epi_interactive_regions_2022.html")
