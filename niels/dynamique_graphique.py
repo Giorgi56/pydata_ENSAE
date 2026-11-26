@@ -13,10 +13,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Importation de la base historique finale
-
-#df = pd.read_csv("epi(historique)/epi_historique_final.csv")
-
 
 # 1. Évolution de l'EPI moyen et médian mondial
 
@@ -137,6 +133,15 @@ def graphique_evolution_classement_par_region(df):
     plt.grid(alpha=0.3)
     plt.tight_layout()
     plt.show()
+
+
+# ====================
+# Programme principal 
+# ====================
+
+# Importation de la base historique finale
+
+#df = pd.read_csv("epi(historique)/epi_historique_final.csv")
 
 
 #graphique_evolution_epi_moyen_median_mondial(df)
