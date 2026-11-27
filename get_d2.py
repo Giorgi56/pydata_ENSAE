@@ -51,11 +51,3 @@ if results != []:
         zObject.close()
 else:
     print("\nresults is empty\n")
-
-# --------------------------------------------------------------------------------------------------------
-# Interesting idea: spatial filter for data: quoting the EarthData data download website:
-# "Use the spatial filters to limit search results to the specified area of interest.
-# 
-# To set the spatial area using a polygon, rectangle, point and radius, or circle, select an option from the menu and then draw on the map or manually enter coordinates.
-# 
-# Upload a shapefile (KML, KMZ, ESRI, etc.) to set the spatial area with a file."
