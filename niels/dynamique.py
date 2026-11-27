@@ -1,16 +1,6 @@
-# Construction de la base historique et calcul du nouvel EPI (1995-2022).
-
-# 1. Fusion des 40 fichiers CSV en une base historique globale.
-# 2. Ajout des régions et sélection des 180 pays de l'EPI 2022.
-# 3. Imputation des valeurs manquantes par la moyenne régionale annuelle.
-# 4. Importation des nouvelles pondérations des 26 indicateurs retenus.
-# 5. Calcul du nouvel EPI pour chaque pays et chaque année.
-# 6. Sauvegarde des bases intermédiaires et finale dans "epi(historique)".
-
-
 import pandas as pd
 import os
-
+# Construction de la base historique et calcul du nouvel EPI et de l'EPI officiel (1995-2022).
 
 def construire_base_historique(dossier):
     """
@@ -98,7 +88,7 @@ def imputer_valeurs_manquantes(df_etude_na):
 
     return df_etude
 
-def charger_ponderations(chemin_poids, chemin_excel):
+def charger_ponderations_nouvelles(chemin_poids, chemin_excel):
     """
     Importe les nouvelles pondérations et la nomenclature officielle
     de l'EPI, puis extrait les poids finaux des 26 indicateurs retenus.
@@ -125,53 +115,44 @@ def charger_ponderations(chemin_poids, chemin_excel):
 
     return poids
 
-def calculer_epi(df_etude, poids):
+def charger_ponderations_officielles(chemin_excel):
     """
-    Calcule le nouvel EPI pour chaque pays et chaque année
-    par somme pondérée des 26 indicateurs retenus.
+    Calcule les poids finaux officiels des 40 indicateurs
+    à partir de la hiérarchie des pondérations de l'EPI 2022.
+    """
+
+    df = pd.read_excel(
+        chemin_excel,
+        sheet_name="6_EPI_Weights"
+    ).set_index("Abbreviation")
+
+    poids_finaux = {}
+
+    for indicateur in df[df["Type"] == "Indicator"].index:
+
+        categorie = df.loc[indicateur, "NextLevel"]
+        objectif = df.loc[categorie, "NextLevel"]
+
+        poids_finaux[indicateur] = (
+            df.loc[indicateur, "Weight"]
+            * df.loc[categorie, "Weight"]
+            * df.loc[objectif, "Weight"]
+        )
+
+    return pd.Series(poids_finaux)
+
+def calculer_epi(df_etude, poids, nom_colonne="EPI_new"):
+    """
+    Calcule un indice EPI pour chaque pays et chaque année
+    par somme pondérée des indicateurs.
     """
 
     df_final = df_etude.copy()
 
-    df_final["EPI_new"] = (
+    df_final[nom_colonne] = (
         df_final[poids.index] * poids
     ).sum(axis=1, skipna=False)
 
     return df_final
 
-
-
-# ====================
-# Programme principal 
-# ====================
-
-# Chemins des fichiers sources
-dossier = "raw_data/2022-epi-indicators-time-series-na"
-chemin_excel = "raw_data/2022-epi.xlsx"
-chemin_poids = "niels/clear_indices.xlsx"
-
-# 1. Construction de la base historique
-df_global = construire_base_historique(dossier)
-
-# Sauvegarde
-#df_global.to_csv("epi(historique)/epi_historique.csv", index=False)
-
-# 2. Ajout des régions et sélection des 180 pays
-df_etude_na = ajouter_regions(df_global, chemin_excel)
-
-# 3. Imputation des valeurs manquantes
-df_etude = imputer_valeurs_manquantes(df_etude_na)
-
-# Sauvegarde
-#df_etude_na.to_csv("epi(historique)/epi_historique_nettoye_na.csv", index=False)
-#df_etude.to_csv("epi(historique)/epi_historique_nettoye.csv", index=False)
-
-# 4. Chargement des nouvelles pondérations
-poids = charger_ponderations(chemin_poids, chemin_excel)
-
-# 5. Calcul du nouvel EPI
-df_final = calculer_epi(df_etude, poids)
-
-# Sauvegarde
-#df_final.to_csv("epi(historique)/epi_historique_final.csv", index=False)
 

@@ -1,4 +1,4 @@
-# Graphiques pour l'analyse dynamique du nouvel EPI entre 1995 et 2022.
+# Graphiques pour l'analyse dynamique du nouvel EPI et de l'EPI offciel entre 1995 et 2022.
 #
 # Les visualisations sont réalisées à partir de la base historique
 # construite dans le fichier dynamique.py.
@@ -133,18 +133,3 @@ def graphique_evolution_classement_par_region(df):
     plt.grid(alpha=0.3)
     plt.tight_layout()
     plt.show()
-
-
-# ====================
-# Programme principal 
-# ====================
-
-# Importation de la base historique finale
-
-#df = pd.read_csv("epi(historique)/epi_historique_final.csv")
-
-
-#graphique_evolution_epi_moyen_median_mondial(df)
-#graphique_evolution_epi_moyen_par_region(df)
-#graphique_classement_variation_epi_par_pays(df)
-#graphique_evolution_classement_par_region(df)
