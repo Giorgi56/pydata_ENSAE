@@ -69,7 +69,7 @@ Une fois qu'on aura créé nos branches personnelles, nous allons faire des comm
 
 
 
-## Structure du projet (que partie niels pour l'instant, à compléter)
+## Structure du projet (à compléter)
 
 ```text
 pydata_ENSAE/
