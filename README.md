@@ -65,3 +65,25 @@ Une fois qu'on aura créé nos branches personnelles, nous allons faire des comm
 + Docu générale de Matplotlib: https://matplotlib.org/stable/
 + Geopandas docu: https://geopandas.org/en/stable/index.html
 + Geopandas interactive mapping: https://geopandas.org/en/stable/docs/user_guide/interactive_mapping.html
+
+
+
+
+## Structure du projet (que partie niels pour l'instant, à compléter)
+
+```text
+pydata_ENSAE/
+├── carte/                              # cartes statiques et interactives de l'EPI 2022.
+│   ├── carte_epi_interactive_2022.html
+│   ├── carte_epi_interactive_regions_2022.html
+│   ├── carte_epi_statique_2022.png
+│   └── world.geojson                   # données géographiques mondiales.
+│
+├── niels/                              # fichiers relatifs à la construction et à l'analyse du nouvel EPI.
+│   ├── clear_indices.xlsx              # nouvelles pondérations des 26 indicateurs retenus.
+│   ├── dynamique.py                    # construction de la base historique (epi officiel et nouvel epi).
+│   ├── dynamique_graphique.py          # fonctions de visualisation de l'évolution du nouvel EPI.
+│   └── map.py                          # génération des cartes statiques et interactives.
+
+
+```
