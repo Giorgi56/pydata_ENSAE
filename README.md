@@ -3,7 +3,7 @@ Niels Souffir, Giorgi Kupradze, Martin Loup
 # pydata_ENSAE
 Projet du cours 'Python pour la Datascience' de l'ENSAE Paris
 
-![Couverture faite par Lindsey Kernodle](cover.png)
+![Couverture faite par Lindsey Kernodle](extra_images/cover.png)
 
 Nous utilisons un dataset fourni par la NASA, intitulé **"2022 Environmental Performance Index (EPI)"**.
 Lien vers le dataset: [EarthDATA/NASA/EPI](https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-epi-2022-2022.00)
